@@ -15,7 +15,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source src="/hero-video.mp4" type="video/mp4" />
-      </video>
+    </video>
       {/* End:: Video Background */}
 
       {/* Start:: Overlay */}
@@ -23,17 +23,20 @@ export default function Hero() {
       {/* End:: Overlay */}
 
       {/* Start:: Content */}
-      <div className="container mx-auto relative z-10 px-6 lg:px-8 pt-32 pb-20 min-h-screen flex items-center">
+      <div className="max-w-323.5 mx-auto relative z-10 px-6 lg:px-8 pt-32 pb-20 min-h-screen flex items-center">
         <div className="max-w-3xl">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light leading-tight mb-8">
-            Fusing Strategy With
+          <h1 className="text-[64px] font-thin mb-6 leading-tight">
+            <span className="bg-gradient-to-r from-[#FFFFFF] via-[#FFFFFF] to-[#FFC4D4] bg-clip-text text-transparent">Fusing Strategy With</span>
             <br />
             Creativity for
             <br />
-            Transformative Growth
+            <span className="bg-gradient-to-r from-[#FFFFFF] via-[#FFFFFF] to-[#FFC4D4] bg-clip-text text-transparent">
+              Transformative Growth
+            </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-gray-200 mb-12 max-w-2xl font-light leading-relaxed">
+
+          <p className="text-lg md:text-xl text-gray-200 mb-12 max-w-2xl font-light tracking-[1%] leading-relaxed">
             Aventis is a consultancy built on deep institutional knowledge,
             creative clarity, and the intelligence that drives meaningful change.
           </p>
