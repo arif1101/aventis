@@ -16,7 +16,7 @@ export default function ContactBanner() {
       
       {/* Content */}
       <div className="max-w-323.5 mx-auto relative z-10 flex flex-col justify-center mt-[274px] mb-[160px]">
-        <div className="">
+        <div className="px-5 md:px-0">
           {/* Main Heading */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-light leading-tight">
             Contact Us
